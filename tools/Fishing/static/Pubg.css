@@ -1,0 +1,72 @@
+body {
+    height: 130vh;
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+    background: url() ;
+    background-color: #456567;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/bF2wMmnmgpBujMpPAsadFk.jpeg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.box {
+    width: -webkit-fill-available;
+    padding: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40pt;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 25px 250px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-size: 25pt;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 20px 70px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 20pt;
+}
+
+.box input[type="submit"]:hover {
+    background: #2ecc71;
+}

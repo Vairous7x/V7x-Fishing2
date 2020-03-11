@@ -1,0 +1,4 @@
+flask
+flask_ngrok
+V7xStyle
+requests
