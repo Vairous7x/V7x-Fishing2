@@ -1,0 +1,3 @@
+pkg install pip3
+pip3 install -r requirements.txt
+chmod 777 start.py
